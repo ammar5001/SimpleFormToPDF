@@ -52,4 +52,49 @@
         <item name="android:layout_marginRight">10dp</item>
     </style>
 
+
+
+
+    <style name="TitleTextViewSmall_land">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#cccccc</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">#2255aa</item>
+    </style>
+
+    <style name="TextViewSmall_land">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#cccccc</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="EditTextSmall_land">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">#fff</item>
+    </style>
+
+    <style name="PortraitButton_land">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:textColor">#cccccc</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">#2208aa</item>
+    </style>
+
+    <style name="RadioButton_land">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#cccccc</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
 </resources>
