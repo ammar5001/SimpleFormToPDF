@@ -11,4 +11,66 @@
     <TextView
         style="@style/TitleTextViewSmall"
         android:text="@string/title"/>
+
+    <TextView
+        style="@style/TextViewSmall"
+        android:text="Enter Name"
+        android:id="@+id/textView" />
+
+    <EditText
+        style="@style/EditTextSmall"
+        android:id="@+id/editText" />
+
+    <TextView
+        style="@style/TextViewSmall"
+        android:text="Enter Age"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_vertical" />
+
+    <EditText
+        style="@style/EditTextSmall"
+        android:id="@+id/editText2" />
+
+    <TextView
+       style="@style/TextViewSmall"
+        android:text="Sex"
+        android:id="@+id/textView4"
+        android:layout_marginTop="5dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:paddingStart="5dp">
+
+        <RadioButton
+            style="@style/RadioButton"
+            android:text="Male"
+            android:id="@+id/radioButton" />
+
+        <RadioButton
+            style="@style/RadioButton"
+            android:text="Female"
+            android:id="@+id/radioButton2" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView3"
+        android:layout_weight="1"
+        android:visibility="invisible" />
+
+    <Button
+        style="@style/PortraitButton"
+        android:text="Save As PDF"
+        android:id="@+id/button" />
+
+    <Button
+        style="@style/PortraitButton"
+        android:text="Email PDF"
+        android:id="@+id/button2" />
+
 </LinearLayout>
